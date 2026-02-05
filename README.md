@@ -1,6 +1,22 @@
-A secure and scalable authentication backend built using Node.js, Express, MongoDB, and JSON Web Tokens (JWT).
-This project demonstrates real-world backend concepts such as password hashing, stateless authentication, protected routes, and clean project architecture.
-</br>
+<h2>🔐 Authentication Backend</h2>
+
+<p>
+A secure and scalable authentication backend built using 
+<strong>Node.js</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, 
+and <strong>JSON Web Tokens (JWT)</strong>.
+</p>
+
+<p>
+This project demonstrates real-world backend concepts such as 
+password hashing, stateless authentication, protected routes, 
+and clean project architecture.
+</p>
+
+<hr/>
+
+<h3>📁 Project Structure</h3>
+
+<pre>
 auth-backend/
 ├── src/
 │   ├── config/
@@ -21,23 +37,30 @@ auth-backend/
 ├── .env
 ├── package.json
 └── README.md
-</br>
-Project Overview
+</pre>
 
+<hr/>
+
+<h3>📌 Project Overview</h3>
+
+<p>
 This backend provides core authentication functionality required by most modern web applications:
+</p>
 
-User Registration (Signup)
+<ul>
+  <li>User Registration (Signup)</li>
+  <li>User Authentication (Login)</li>
+  <li>Password Hashing</li>
+  <li>JWT Token Generation</li>
+  <li>Protected Routes using Middleware</li>
+  <li>Secure Environment Configuration</li>
+  <li>Clean &amp; Modular Backend Structure</li>
+</ul>
 
-User Authentication (Login)
+<p>
+The project is designed to be 
+<strong>easy to understand</strong>, 
+<strong>secure</strong>, 
+and <strong>extendable</strong>.
+</p>
 
-Password Hashing
-
-JWT Token Generation
-
-Protected Routes using Middleware
-
-Secure Environment Configuration
-
-Clean & Modular Backend Structure
-
-The project is designed to be easy to understand, secure, and extendable.
